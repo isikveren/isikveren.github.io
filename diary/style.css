@@ -16,4 +16,8 @@ span{
 .example3{
     color: sienna;
 }
+header{
+    border: 1px solid green;
+    width: 6em;
+}
 
