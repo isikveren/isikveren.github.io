@@ -1,0 +1,32 @@
+span{
+    color:rgb(218, 110, 176);
+   
+}
+/* img{
+    border:4px  red;
+} */
+p{
+    background-color: rgb(247, 212, 212);
+    line-height: normal;
+}
+body{
+    background-color:rgb(255, 255, 255);
+}
+div{
+    border: 1px solid rgb(255, 37, 37);
+    padding: 1em;
+    width: 8em;
+    /* height: 15em; */
+    /* cursor: wait; */
+}
+#end{
+    border: 1px solid rgb(143, 128, 212);
+    padding: 0.2em;
+    width: 18%;
+}
+/* header{
+    border: 1px solid rgb(248, 203, 203);
+    padding: 1em;
+    width: 8em;
+    height: 4em;
+} */
