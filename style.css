@@ -1,14 +1,36 @@
 span{
+    color: slategray;
+}
+ p{
+    color:rgb(107, 70, 70);
+} 
+.example0{
+    color: sandybrown;
+}
+.example1{
+    color: salmon;
+}
+.example2{
+    color: seagreen;
+}
+.example3{
+    color: sienna;
+}
+header{
+    border: 1px solid green;
+    width: 6em;
+}
+span{
     color:rgb(218, 110, 176);
    
 }
 /* img{
     border:4px  red;
 } */
-p{
+/* p{
     background-color: rgb(247, 212, 212);
     line-height: normal;
-}
+} */
 body{
     background:url(document/background.jpg);
     background-size: 100%;}
@@ -30,7 +52,4 @@ div{
     width: 8em;
     height: 4em;
 } */
-header{
-    border: 1px solid green;
-    width: 6em;
-}
+
