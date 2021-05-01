@@ -34,12 +34,17 @@ span{
 body{
     background:url(document/background.jpg);
     background-size: 100%;}
-div{
+.div_0{
     border: 1px solid rgb(255, 37, 37);
     padding: 1em;
     width: 8em;
     /* height: 15em; */
     /* cursor: wait; */
+}
+.div_1{
+    border: 1px solid rgb(255, 37, 37);
+    padding: 1em;
+    width: 48em;
 }
 #end{
     border: 1px solid rgb(143, 128, 212);
