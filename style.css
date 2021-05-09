@@ -1,7 +1,4 @@
-span{
-    color: slategray;
-}
- p{
+p{
     color:rgb(107, 70, 70);
 } 
 .example0{
@@ -22,7 +19,6 @@ header{
 }
 span{
     color:rgb(218, 110, 176);
-   
 }
 /* img{
     border:4px  red;
@@ -35,6 +31,7 @@ body{
     background:url(document/background.jpg);
     background-size: 100%;}
 .div_0{
+    background-color: rgba(255, 37, 37,.5);
     border: 1px solid rgb(255, 37, 37);
     padding: 1em;
     width: 8em;
