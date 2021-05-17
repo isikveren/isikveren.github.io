@@ -54,4 +54,6 @@ body{
     width: 8em;
     height: 4em;
 } */
-
+img{
+    border: 4px solid brown;
+}
