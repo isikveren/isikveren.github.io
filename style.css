@@ -1,6 +1,4 @@
-p{
-    color:rgb(107, 70, 70);
-} 
+
 .example0{
     color: sandybrown;
 }
@@ -60,7 +58,7 @@ img{
 }
 
 body h1{
-    color: cornflowerblue;
+    color: rgb(247, 89, 102);
 }
 
 li:first-child{
@@ -69,3 +67,6 @@ li:first-child{
 li:last-child{
     color:slateblue;
 }
+p{
+    color:rgb(38, 62, 186);
+} 
