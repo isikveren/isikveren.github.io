@@ -75,7 +75,11 @@ body{
     position: relative;
     margin: 0 auto;
     word-break: break-word;
-    font-size:16px
+    font-size:16px;
+    line-height:1.5
+}
+.TextBox p{
+    color: rgb(66, 74, 82);
 }
 /* header{
     border: 1px solid rgb(248, 203, 203);
