@@ -106,3 +106,7 @@ li:last-child{
 /* p{
     color:rgb(38, 62, 186);
 }  */
+
+header{
+    position: fixed;
+}
