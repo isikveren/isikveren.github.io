@@ -28,8 +28,9 @@ span{
     line-height: normal;
 } */
 body{
-    background:url(document/background.jpg);
+    background:url(document/background.png);
     background-size: 100%;
+    background-attachment: fixed;
     font-family:
     ui-sans-serif,
     system-ui,
@@ -68,8 +69,8 @@ body{
     width: 18%;
 }
 .TextBox{
-    background-color: rgb(255, 255, 255);
-    border: 1px solid rgb(248, 196, 196);
+    background-color: rgba(219, 187, 173, 0.75);
+    border: 1px solid rgb(248, 196, 196,.5);
     padding: 1em;
     width: 60%;
     position: relative;
