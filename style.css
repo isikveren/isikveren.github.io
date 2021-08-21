@@ -11,12 +11,6 @@
 .example3{
     color: sienna;
 }
-header{
-    border: 1px solid azure;
-    background-color: azure;
-    width: 6em;
-    position: relative;
-}
 span{
     color:rgb(218, 110, 176);
 }
@@ -113,6 +107,9 @@ li:last-child{
 
 header{
     position: fixed;
+    /* background-color: aqua; */
+    background-image: url(document/header.png);
+    background-size: 100% 100%;
 }
 #Inscribe{
     color: rgb(47, 17, 24);
