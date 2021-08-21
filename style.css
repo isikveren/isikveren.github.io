@@ -80,7 +80,10 @@ body{
     line-height:1.5
 }
 .TextBox p{
-    color: rgb(66, 74, 82);
+    color: rgb(7, 8, 8);
+}
+.TextBox q{
+    color: rgb(65, 71, 80);
 }
 /* header{
     border: 1px solid rgb(248, 203, 203);
@@ -90,6 +93,7 @@ body{
 } */
 img{
     border: 4px solid rgb(38, 62, 186);
+    width: 48.8%;
 
 }
 
@@ -109,4 +113,7 @@ li:last-child{
 
 header{
     position: fixed;
+}
+#Inscribe{
+    color: rgb(47, 17, 24);
 }
