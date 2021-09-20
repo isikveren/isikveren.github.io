@@ -71,20 +71,23 @@
     <center>
         <a href='https://clustrmaps.com/site/1bk3w'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=080808&w=300&t=tt&d=rvogcZGMSxZYxTCxNMNoAz4C1oW7Do5vhjW0u0bYRQk&co=ffffff&ct=808080'/></a>
     </center>
-    <form
-  action="https://formspree.io/f/mbjqwabq"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+   
+<FORM name="contact" action="https://formspree.io/f/mbjqwabq" method="post">
+    <div class="field">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" />
+    </div>
+    <div class="field">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+    </div>
+    <div class="field">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" rows="3"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="Send Message" /></li>
+    </ul>
 </form>
 </body>
 </html>
