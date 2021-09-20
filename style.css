@@ -75,9 +75,11 @@ body{
 }
 .TextBox p{
     color: rgb(7, 8, 8);
+    /* font-style: italic; */
 }
 .TextBox q{
     color: rgb(65, 71, 80);
+    font-style: normal;
 }
 /* header{
     border: 1px solid rgb(248, 203, 203);
@@ -113,4 +115,10 @@ header{
 }
 #Inscribe{
     color: rgb(47, 17, 24);
+}
+#test1{
+    font-style: normal;
+}
+#test2{
+    font-style: italic;
 }

@@ -1,3 +1,3 @@
-# 一个前端菜鸟的静态个人网页
+# Personal Website of Xunzi Liu.
 
-<a href = "https://isikveren.github.io">看看小页面</a>
+<a href = "liuxunzi.com">Here！</a>
