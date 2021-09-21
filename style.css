@@ -22,7 +22,8 @@ span{
     line-height: normal;
 } */
 body{
-    background:url(document/background.png);
+    /* background:url(document/background.png); */
+    background-color: rgb(31, 35, 41);
     background-size: 100%;
     background-attachment: fixed;
     font-family:
@@ -53,7 +54,7 @@ body{
     /* cursor: wait; */
 }
 .div_1{
-    border: 1px solid rgb(253, 252, 252);
+    border: 1px solid rgb(255, 255, 255);
     padding: 1em;
     width: 48em;
 }
@@ -63,10 +64,10 @@ body{
     width: 18%;
 }
 .TextBox{
-    background-color: rgba(219, 187, 173, 0.75);
+    background-color: rgba(255, 255, 255, 0.90);
     border: 1px solid rgb(248, 196, 196,.5);
     padding: 1em;
-    width: 60%;
+    width: 80%;
     position: relative;
     margin: 0 auto;
     word-break: break-word;
@@ -94,7 +95,7 @@ img{
 }
 
 body h1{
-    color: rgb(247, 89, 102);
+    color: rgb(0, 0, 0);
 }
 
 li:first-child{
