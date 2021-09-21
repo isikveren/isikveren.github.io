@@ -65,7 +65,7 @@ body{
 }
 .TextBox{
     background-color: rgba(255, 255, 255, 0.90);
-    border: 1px solid rgb(248, 196, 196,.5);
+    border: 1px solid rgba(255, 255, 255, 0.90);
     padding: 1em;
     width: 80%;
     position: relative;
@@ -110,8 +110,8 @@ li:last-child{
 
 header{
     position: fixed;
-    /* background-color: aqua; */
-    background-image: url(document/header.png);
+    background-color: rgb(255, 255, 255);
+    /* background-image: url(document/header.png); */
     background-size: 100% 100%;
 }
 #Inscribe{
