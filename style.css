@@ -108,11 +108,14 @@ li:last-child{
     color:rgb(38, 62, 186);
 }  */
 
-header{
+#header1{
     position: fixed;
     background-color: rgb(255, 255, 255);
     /* background-image: url(document/header.png); */
     background-size: 100% 100%;
+}
+#header2{
+    height: 10em;
 }
 #Inscribe{
     color: rgb(47, 17, 24);
