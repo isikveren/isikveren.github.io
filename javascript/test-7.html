@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>let不会提升声明</title>
+</head>
+<body>
+    <script>
+    console.log(name);
+    var name = "aha";
+
+    console.log(name2);
+    let name2 = "aha";  //Cannot access uninitialized variable.
+    </script>
+</body>
+</html>
