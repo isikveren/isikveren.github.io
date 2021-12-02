@@ -4,6 +4,6 @@ alert(message);
 
 var x = 2;
 
-while(--x>0){
+while (--x > 0) {
     alert(x);
 }

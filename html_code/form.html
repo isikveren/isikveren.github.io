@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,28 @@
     <title>交互</title>
     <link rel="stylesheet" href="../style.css">
 </head>
+
 <body>
-    <header role = "banner">
-        <nav role = "navigation">
+    <header role="banner">
+        <nav role="navigation">
             <ul>
                 <li><a href="../index.html" title="首页">首页</a></li>
-                <li><a href = "../html_code/remember.html" title="点击看看我">关于</a>&nbsp;</li>
-                <li><a href = "../html_code/code_contents.html" title="点击进入代码集">代码</a></li>
+                <li><a href="../html_code/remember.html" title="点击看看我">关于</a>&nbsp;</li>
+                <li><a href="../html_code/code_contents.html" title="点击进入代码集">代码</a></li>
             </ul>
         </nav>
     </header>
     <div class="TextBox">
-    <hr />
-    <form method = "post" action = "save.php">
-        <label for="username">用户名:</label>
-        <input type="text" name="username" id="username" value="" />
-        <label for="pass">密码:</label>
-        <input type="password" name="pass" id="pass" value="" />
-        <input type="submit" value="确定" name="submit" />
-        <input type="reset" value="重置" name="reset" />
-    </form>
+        <hr />
+        <form method="post" action="save.php">
+            <label for="username">用户名:</label>
+            <input type="text" name="username" id="username" value="" />
+            <label for="pass">密码:</label>
+            <input type="password" name="pass" id="pass" value="" />
+            <input type="submit" value="确定" name="submit" />
+            <input type="reset" value="重置" name="reset" />
+        </form>
     </div>
 </body>
+
 </html>
