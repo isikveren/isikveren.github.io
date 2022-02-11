@@ -13,13 +13,64 @@
             object-fit: cover;
             border-radius: 8px;
         }
-        video{
-            width:1000px;
+
+        video {
+            width: 1000px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid grey;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        tfoot{
+            text-align: left;
         }
     </style>
 </head>
 
 <body>
+    <ul>
+        <li>1<ul>
+                <li>a</li>
+            </ul>
+        </li>
+        <li>2</li>
+    </ul>
+
+    <dl>
+        <dt>11</dt>
+        <dd>22</dd>
+    </dl>
+
+    <table>
+        <tbody>
+            <tr>
+                <th colspan="2">s</th>
+            </tr>
+            <tr>
+                <th>第一行</th>
+                <th>第二行</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><th>5</th><th>6</th></tr>
+        </tfoot>
+    </table>
     <a href="company/about.html">About Me</a>
     <a href="#css">css</a>
     <img src="images/japan.jpg" alt="japan">
