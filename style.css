@@ -30,7 +30,8 @@
 } */
 body {
     /* background:url(document/isikveren.png); */
-    background: linear-gradient(#99f, #f99);
+    /* background: linear-gradient(#99f, #f99); */
+    background: rgb(255, 244, 242);
     height: 100vh;
     background-size: 100%;
     background-attachment: fixed;
