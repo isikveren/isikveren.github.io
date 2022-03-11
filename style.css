@@ -92,6 +92,7 @@ body {
 .TextBox p {
     color: rgb(7, 8, 8);
     /* font-style: italic; */
+    margin-top: 10px;
 }
 
 .TextBox q {
