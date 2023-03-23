@@ -31,8 +31,8 @@
 body {
     /* background:url(document/isikveren.png); */
     /* background: linear-gradient(#99f, #f99); */
-    background: rgb(255, 244, 242);
-    height: 100vh;
+    background: #fff4f2;
+    /* height: 100vh;
     background-size: 100%;
     background-attachment: fixed;
     font-family:
@@ -51,7 +51,7 @@ body {
         "Apple Color Emoji",
         "Segoe UI Emoji",
         "Segoe UI Symbol",
-        "Noto Color Emoji";
+        "Noto Color Emoji"; */
 
 }
 
@@ -106,13 +106,14 @@ img {
 
 }
 
-.icon{
+.icon {
     width: 40px;
 }
 
 body h1 {
     color: rgb(0, 0, 0);
 }
+
 #header2 {
     height: 10em;
 }
@@ -140,7 +141,11 @@ body h1 {
     padding: 6px;
     border-radius: 20px;
     background-color: rgba(255, 153, 154, 0.6);
+}
 
+.header2 {
+    padding: 70px;
+    font-family: 楷体;
 }
 
 .header1 li {
@@ -154,28 +159,21 @@ body h1 {
     color: rgb(255, 250, 250);
 }
 
-a {
+a:any-link {
+    color: pink;
     text-decoration: none;
+    cursor: auto;
 }
 
-a:hover {
-    color: #fb2799;
-}
 
-.header1 ul li a:hover {
-    color: #fb2799;
-}
-
-.head_image{
-    width:80px;
+.head_image {
+    width: 80px;
     border-radius: 60px;
 }
 
-.header2{
-    padding: 70px;
-}
 
-.end{
+
+.end {
     /* background-color: rgba(255, 255, 255, 0.90); */
     padding: 2em;
     width: 60%;
@@ -187,11 +185,11 @@ a:hover {
     /* border-radius: 5px; */
 }
 
-p{
-    line-height:1.5;
+p {
+    line-height: 1.5;
 }
 
-.end{
+.end {
     /* background-color: rgba(247, 212, 212); */
     border: 1px solid rgba(255, 153, 154, 0.6);
     padding: 2em;
@@ -203,7 +201,8 @@ p{
     line-height: 1.5;
     border-radius: 4px;
 }
-.field{
+
+.field {
     border: 0px solid rgba(255, 153, 154, 0.6);
     padding: 1em;
     /* width: 100%; */
@@ -215,10 +214,11 @@ p{
     border-radius: 4px;
 
 }
-input{
+
+input {
     border: 1px solid rgba(255, 153, 154, 0.6);
     padding: 1em;
-  
+
     position: relative;
     margin: 0 auto;
     word-break: break-word;
@@ -226,14 +226,24 @@ input{
     line-height: 1.5;
     border-radius: 4px;
 }
-textarea{
+
+textarea {
     border: 1px solid rgba(255, 153, 154, 0.6);
     padding: 0em;
-  
+
     position: relative;
     margin: 0 auto;
     word-break: break-word;
     font-size: 16px;
     line-height: 1.5;
     border-radius: 4px;
+}
+
+::selection {
+    color: #fff;
+    background-color: #fa9289;
+}
+
+ul li {
+    list-style: none;
 }

@@ -2,4 +2,4 @@
 
 <a href = "liuxunzi.com">Here！</a>   
 
-[笔记](javascript/node.md)
+[javacsript笔记](javascript/node.md)
