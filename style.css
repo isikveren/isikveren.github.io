@@ -160,7 +160,7 @@ body h1 {
 }
 
 a:any-link {
-    color: pink;
+    color: rgb(241, 34, 69);
     text-decoration: none;
     cursor: auto;
 }
@@ -246,4 +246,12 @@ textarea {
 
 ul li {
     list-style: none;
+}
+
+#header {
+    background-image: url(/picture/sunset.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
