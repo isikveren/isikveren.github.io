@@ -31,9 +31,7 @@
 body {
     /* background:url(document/isikveren.png); */
     /* background: linear-gradient(#99f, #f99); */
-    background: #fff4f2;
-    /* height: 100vh;
-    background-size: 100%;
+    background-color: #fff4f2;
     background-attachment: fixed;
     font-family:
         ui-sans-serif,
@@ -51,7 +49,7 @@ body {
         "Apple Color Emoji",
         "Segoe UI Emoji",
         "Segoe UI Symbol",
-        "Noto Color Emoji"; */
+        "Noto Color Emoji";
 
 }
 
